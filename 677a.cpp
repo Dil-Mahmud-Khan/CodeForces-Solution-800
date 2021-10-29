@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+    {
+        int a,b;
+        int count1=0;
+        int count2=0;
+        cin>>a>>b;
+        int arr[a];
+
+
+        for(int i=0;i<a;i++)
+        {
+            cin>>arr[i];
+        if(arr[i]<=b){
+            count1++;
+        }
+        else{
+            count2=count2+2;
+
+        }
+
+    }
+        cout<<count1+count2<<endl;
+
+    }
